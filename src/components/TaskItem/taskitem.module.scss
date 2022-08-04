@@ -1,0 +1,30 @@
+.taskitem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--grey);
+    padding: 15px 20px;
+}
+.taskitemCompleted {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--green);
+    opacity: 0.3;
+    border-radius: 6px;
+    border: 1px solid var(--grey);
+    padding: 15px 20px;
+}
+.taskitemCompleted span {
+    // opacity: 0.5;
+    color: var(--white);
+}
+.taskitem__buttons button {
+    border-radius: 2px;
+    padding: 4px 4px 2px 4px;
+}
+.taskitem__buttons button:not(:last-child) {
+    margin-right: 10px;
+}

@@ -1,0 +1,74 @@
+.black{
+    color: var(--black);
+}
+.green{
+    color: var(--green);
+}
+.red {
+    color: var(--red);
+}
+.white{
+    color: var(--white);
+}
+.green8{
+    color: var(--green8);
+}
+.bold{
+    font-weight: 700;
+}
+.underline {
+    text-decoration-line: underline;
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-beige{
+    background-color: var(--beige);
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.bg-green8 {
+    background-color: var(--green8);
+}
+.s28{
+    font-size: 28px;
+    line-height: 33px;
+}
+.s24{
+    font-size: 24px;
+    line-height: 28px;
+}
+.s20{
+    font-size: 20px;
+    line-height: 23px;
+}
+.s16{
+    font-size: 16px;
+    line-height: 19px;
+}
+.s14{
+    font-size: 14px;
+    line-height: 16px;
+}
+.s12{
+    font-size: 12px;
+    line-height: 14px;
+}
+.s10{
+    font-size: 10px;
+    line-height: 12px;
+}
+button {
+    padding: 10px 15px;
+    border-radius: 4px;
+}

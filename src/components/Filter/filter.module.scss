@@ -1,0 +1,11 @@
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.filter label {
+    margin-left: 8px;
+}
+.filter label:not(:first-child) {
+    min-width: 120px;
+}

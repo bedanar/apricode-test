@@ -1,0 +1,14 @@
+input {
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.inputblock {
+    position: relative;
+}
+.inputblock button {
+    position: absolute;
+    top: 1px;
+    right: 0;
+}

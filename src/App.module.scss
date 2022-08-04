@@ -1,0 +1,14 @@
+.app {
+  margin: 40px 0;
+}
+.app div {
+  margin-top: 20px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.filter div:not(:last-child) {
+  margin-right: 20px;
+}
